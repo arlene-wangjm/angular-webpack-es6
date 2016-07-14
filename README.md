@@ -10,8 +10,8 @@ This codebase is intended to deliver a working web UI application, as part of th
 Installation
 ------------
 
-        $ git https://code.ap.fid-intl.com/gitblit/summary/hk-fidelity-online%2Fhk-fidelity-online-secure.git
-        $ cd hk-fidelity-online-secure
+        $ git https://github.com/arlene-wangjm/angular-webpack-es6.git
+        $ cd angular-webpack-es6
         $ npm install
 
 Note: This has been built on a windows box. It should work on a Mac - but may need some "mucking about".
@@ -52,6 +52,8 @@ The client codebase utilises the following:
 + ispartar(code coverage) : https://github.com/douglasduteil/isparta
 + Protractor (e2e testing) : not work, can't install chromedriver.exe
 + Express.js (node server, remove angualr hashbang#)
+
++ image sprites for normal and retina
 
 - There are some other plugins ... look them up from the package.json :)
 

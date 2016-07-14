@@ -63,7 +63,6 @@ module.exports = function (config) {
     colors: true,
 
     // level of logging
-    // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_INFO,
 
     // toggle whether to watch files and rerun tests upon incurring changes
@@ -89,13 +88,6 @@ module.exports = function (config) {
       // Have phantomjs exit if a ResourceError is encountered (useful if karma exits without killing phantom) 
       exitOnResourceError: true
     },
-
-    // customLaunchers: {
-    //     Chrome_travis_ci: {
-    //         base: 'Chrome',
-    //         flags: ['--no-sandbox']
-    //     }
-    // },
 
     // if true, Karma runs tests once and exits
     singleRun: true
