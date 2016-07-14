@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+src/public/global.js
+src/public/css
+#for public git
+#src/public/fonts
+#src/public/images
