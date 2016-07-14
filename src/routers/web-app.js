@@ -13,7 +13,7 @@ webAppRouter.get([
     '/', '/login', '/dashboard', '/home'
 ], (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
-})
+});
 
 webAppRouter.get(['/discover'], (req, res) => {
     res.set('Content-Type', 'application/json');
